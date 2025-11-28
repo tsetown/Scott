@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
 body{
     background-color: grey
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(26, 72, 43);
+    padding: 20px;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+    border: 7px solid beige;
+    border-radius: 50%;
+}
+
+header h1{
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  margin: 10px;
+  color: beige;
 }
