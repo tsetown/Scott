@@ -2,7 +2,7 @@
 
 body{
     font-family: Arial;
-    background-color: grey
+    background-color: rgb(150, 199, 218)
 }
 
 html, body{
@@ -79,4 +79,17 @@ main{
 
 main img{
     width: 100%;
+}
+
+footer{
+    margin: 0 auto;
+    margin-top: 65px;
+    background-color: rgb(26, 72, 43);
+    padding: 20px;
+    text-align: center;
+}
+
+footer .content{
+    width: 700px;
+    margin: 0 auto;
 }
