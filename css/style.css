@@ -1,12 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
 
 body{
+    font-family: Arial;
     background-color: grey
 }
 
 html, body{
     padding: 0;
     margin: 0;
+}
+
+p, ul, ol{
+    line-height: 25px;
+    font-size: 14px;
+}
+
+ul, ol{
+    padding: 0;
+    list-style-position: inside;
+}
+
+a{
+    color: rgb(16, 73, 83);
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: rgb(12, 130, 177);
+}
+
+a:visited{
+    color: black;
+}
+
+figcaption{
+    font-size: 10px;
+    color: rgb(81, 80, 80);
+    font-style: oblique;
 }
 
 header{
@@ -22,11 +55,28 @@ header img{
     border-radius: 50%;
 }
 
-header h1{
+h1{
   font-family: "Jersey 25", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 45px;
   margin: 10px;
   color: beige;
+}
+
+h2{
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+main{
+    width: 700px;
+    margin: 0 auto;
+}
+
+main img{
+    width: 100%;
 }
