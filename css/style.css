@@ -72,9 +72,16 @@ h2{
   margin: 20px 0;
 }
 
+@media (max-width: 600px) {
+    h2{
+        font-size: 40px;
+    }
+}
+
 main{
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 main img{
@@ -90,6 +97,12 @@ footer{
 }
 
 footer .content{
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    footer p{
+        font-size: 16px;
+    }
 }
